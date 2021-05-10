@@ -1,0 +1,6 @@
+env: 
+  EMAIL_SENDER: ${{ secrets.SENDER_ID }}
+  EMAIL_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
+  EMAIL_RECIPIENT1: ${{ secrets.EMAIL_ID1 }}
+  EMAIL_RECIPIENT2: ${{ secrets.EMAIL_ID2 }}
+run: python vaccine-slots.py
